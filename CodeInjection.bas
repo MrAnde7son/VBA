@@ -1,3 +1,4 @@
+Attribute VB_Name = "CodeInjection"
 ' Win32 API Declaration
 #If VBA7 Then
     Private Declare PtrSafe Function OpenProcess Lib "kernel32" (ByVal dwDesiredAccess As Long, ByVal bInheritHandle As Long, ByVal dwProcessId As Long) As LongPtr
